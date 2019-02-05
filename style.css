@@ -2,7 +2,7 @@
     margin: 0;
 }
 nav{
-    background-color: red;
+    background-color: pink;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -11,7 +11,8 @@ nav{
 
 }
 a{
-    color: white;
+    color: black;
     text-decoration: none;
-    font-size: 18pt;
+    font-size: 14pt;
+
 }
