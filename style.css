@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+nav{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    will-change: 100vw;
+    height: 50px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18pt;
+}
