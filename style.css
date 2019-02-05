@@ -2,7 +2,7 @@
     margin: 0;
 }
 nav{
-    background-color: blue;
+    background-color: red;
     display: flex;
     align-items: center;
     justify-content: space-around;
