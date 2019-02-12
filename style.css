@@ -1,4 +1,4 @@
-*{
+*{ /*  o * aplica a estilização para todas as tags dentro do body  */
     margin: 0;
 }
 nav{
@@ -10,7 +10,11 @@ nav{
     height: 50px;
 
 }
-<<<<<<< HEAD
+
+/*  o nth-child() é uma forma de selecionar um elemento do html sem utilizar classe ou id. Para isso, colocamos :nth-child no elemento filho que queremos selecionar e entre parênteses em que posição ele se encontra. 
+
+Aqui embaixo selecionamos a tag a no html que é o primeiro filho e está dentro da nav. E o mesmo foi feito para o terceiro e sexto filho
+*/
 nav a:nth-child(1) {
     font-size: 18pt;
     color: black;
@@ -33,11 +37,4 @@ nav button:nth-child(6){
 }
 .vermelho{
     background-color: blue
-=======
-a{
-    color: black;
-    text-decoration: none;
-    font-size: 14pt;
-
->>>>>>> c324b6d49f1adc79735ec75c29d1894f4cea8e39
 }
